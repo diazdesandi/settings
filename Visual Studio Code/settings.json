@@ -1,0 +1,69 @@
+{
+    "telemetry.telemetryLevel": "off",
+    "editor.fontSize": 16,
+    "editor.fontFamily": "\"GeistMono NF\"",
+    "editor.fontLigatures": "'calt', 'ss02','ss03', 'zero', 'onum','ss10','ss12','ss14','ss15','ss16'",
+    "editor.fontVariations": true,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "comment",
+                    "entity.name.type.class",
+                    "keyword",
+                    "constant",
+                    "storage.modifier",
+                    "storage.type.class.js"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": [
+                    "invalid",
+                    "keyword.operator",
+                    "constant.numeric.css",
+                    "keyword.other.unit.px.css",
+                    "constant.numeric.decimal.js",
+                    "constant.numeric.json"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            }
+        ]
+    },
+    "editor.lineHeight": 20,
+    "editor.minimap.enabled": false,
+    "terminal.integrated.cursorBlinking": true,
+    "workbench.editor.enablePreview": false,
+    "workbench.list.smoothScrolling": true,
+    "workbench.tree.indent": 16,
+    "workbench.tree.renderIndentGuides": "always",
+    "window.zoomLevel": 1.5,
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "workbench.iconTheme": "nonicons",
+    "workbench.productIconTheme": "icons-octicons",
+    "workbench.colorTheme": "Vercel Theme",
+    "eslint.enable": true,
+    "javascript.suggest.autoImports": false,
+    "typescript.suggest.autoImports": false,
+    "terminal.integrated.smoothScrolling": true,
+    "editor.cursorBlinking": "smooth",
+    "files.autoSave": "onFocusChange",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.sideBar.location": "right",
+    "workbench.statusBar.visible": false,
+    "terminal.integrated.fontFamily": "GeistMono Nerd Font",
+    "terminal.integrated.fontSize": 16,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.activityBar.location": "top",
+    "redhat.telemetry.enabled": false
+}
